@@ -7,6 +7,14 @@
     text-align: center;
 }
 
+.search-bar input[type=text] {
+    height: 40px;
+    width: 550px;
+    border-radius: 15px;
+    border: 1px #d7d6d6 solid;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
