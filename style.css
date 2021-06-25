@@ -1,0 +1,19 @@
+#logo {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.search-bar {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav-bar {
+    text-align: right;
+}
