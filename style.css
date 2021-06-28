@@ -21,6 +21,19 @@
     outline: none;
 }
 
+.search-box button[type="button"] {
+    background-color: rgb(242, 242, 242);
+    width: 125px;
+    height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;  
+    
+    margin-top: 27px;
+     
+}
+
+
 .search-bar input[type=text]:focus {
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
 }
@@ -38,6 +51,6 @@ ul {
     padding: 0;    
 }
 
-#nav-bar {
+.nav-bar {
     text-align: right;
 }
