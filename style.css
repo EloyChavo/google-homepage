@@ -8,18 +8,34 @@
 }
 
 .search-bar input[type=text] {
-    height: 40px;
-    width: 550px;
-    border-radius: 15px;
+    background: url("https://michalosman.github.io/google-homepage/images/google-search.png") no-repeat left 10px center, url("https://www.gstatic.com/inputtools/images/tia.png") no-repeat right 15px center;
+    height: 43px;
+    width: 500px;
+    border-radius: 20px;
     border: 1px #d7d6d6 solid;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 0px 40px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.search-bar input[type=text]:focus {
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+.search-bar input[type=text]:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+} 
+
+#img {
+    text-align: left;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 #nav-bar {
