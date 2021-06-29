@@ -22,16 +22,24 @@
 }
 
 .search-box button[type="button"] {
-    background-color: rgb(242, 242, 242);
-    width: 125px;
-    height: 34px;
+    background-color: rgba(242, 242, 242, 0.51);
+    border: 0;
+    width: 142px;
+    height: 35px;
     border-radius: 5px;
     text-align: center;
     white-space: nowrap;  
+    margin-top: 27px;    
+    font-size: 13.5px;
+    color: rgb(70, 70, 70);
     
-    margin-top: 27px;
-     
 }
+
+.search-box button[type="button"]:hover {
+    border: 1px solid rgba(208, 208, 208, 0.699);
+
+}
+
 
 
 .search-bar input[type=text]:focus {
