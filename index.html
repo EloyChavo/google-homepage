@@ -3,20 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>Test</title>
-        <link rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <div class="nav-bar">
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-            </ul>
-        </div>
-        
 
-        <figure id="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        </figure>
+    <body>
+        <header class="nav-bar">
+            
+            <ul>
+                <li id="gmail"><a href="http://127.0.0.1:5500/">Gmail</a></li>
+                <li id="images"><a href="http://127.0.0.1:5500/">Images</a></li>
+            </ul> 
+        </header>
+
+        <div class="logo">
+            <figure>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </figure>
+        </div>
 
         <div class="search-bar">
             <input type="text" placeholder="">
@@ -28,6 +31,8 @@
                 
             </div>
         </div>
+        
+
 
         
 
