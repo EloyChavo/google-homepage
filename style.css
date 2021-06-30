@@ -1,3 +1,9 @@
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+
 .logo figure {
     text-align: center;
     margin-top: 160px;
@@ -46,12 +52,15 @@
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
 } 
 
-.nav-bar ul{
+li {
+    display: inline;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0; 
-    text-align: right 
-    
+    text-align: right    
 }
 
 .nav-bar li {
@@ -65,15 +74,99 @@
     color: rgb(70, 70, 70);
 }
 
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
 #gmail {
     position: absolute;
-    margin-left: 1380px;
+    margin-left: -215px;
     margin-top: -135px;
 }
 
 
 #images {
     position: absolute;
-    margin-left: 1435px;
+    margin-left: -155px;
     margin-top: -135px;
+}
+
+
+
+footer {
+    position: absolute;
+    border: 0.5px solid rgba(175, 175, 175, 0.664);
+    height: 42px;
+    margin-top: 231px;
+    text-align: center; 
+    background-color: rgb(242, 242, 242);
+    width:99%;
+}
+
+.bottom {
+    margin-top: 7px;
+    width: 100%;
+}
+
+
+.info li {
+    position: absolute;
+    display: inline-block;
+    font-size: 13.5px;
+    color:  rgba(99, 99, 99, 0.938);
+}
+
+.info a {
+    text-decoration: none; 
+    color:  rgba(99, 99, 99, 0.938);
+    font-family: sans-serif;
+}
+
+.info a a:visited {
+    text-decoration: none; 
+    color:  rgba(99, 99, 99, 0.938);
+}
+
+.info a:hover {
+    color:  rgba(99, 99, 99, 0.938);
+    text-decoration: underline;
+}
+
+
+#ad {
+    left: 30px;
+    bottom: 10px;
+}
+
+#business {
+    left: 130px;
+    bottom: 10px;
+} 
+
+#about {
+    bottom: 10px;
+    left: 215px;
+}
+
+#how {
+    left: 280px;
+    bottom: 10px;
+}
+
+
+
+
+#privacy {
+    right: 180px;
+    bottom: 10px;   
+}
+
+#terms {
+    right: 110px;  
+    bottom: 10px; 
+}
+
+#settings {
+    right: 30px;
+    bottom: 10px;
 }
