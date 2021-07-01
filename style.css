@@ -4,6 +4,71 @@ body {
     margin: 0px;
 }
 
+li {
+    display: inline;
+}
+
+ul {
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none; 
+    margin: 0;
+    padding: 0; 
+    text-align: right    
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+    position: relative;
+    bottom: 0px;
+}
+
+.nav-bar a {
+    text-decoration: none; 
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+}
+
+.nav-bar a:visited {
+    text-decoration: none; 
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.user-photo {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 1530px; 
+}
+
+.user-photo img {
+    border: 1px gray solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;    
+}
+
+.user-photo img:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+#gmail {
+    position: relative;
+    left: -120px;
+    top: 25px;
+}
+
+#images {
+    position: relative;
+    left: -110px;
+    top: 25px;
+}
+
+/* Google Logo */
 .google-search {
     position:relative;
     right: 8px;
@@ -15,11 +80,10 @@ body {
     margin-top: 160px;
 }
 
+/* Search Box */
 
 .search-bar {
     text-align: center;
-    
-    
 }
 
 .search-bar input[type=text] {
@@ -47,7 +111,6 @@ body {
     margin-top: 27px;    
     font-size: 13.5px;
     color: rgb(70, 70, 70);
-    
 }
 
 .search-box button[type="button"]:hover {
@@ -58,58 +121,12 @@ body {
     border: 1px solid rgb(0, 47, 255);
 }
 
-
 .search-bar input[type=text]:focus, 
 .search-bar input[type=text]:hover {
     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
 } 
 
-li {
-    display: inline;
-}
-
-ul {
-    font-family: sans-serif;
-    list-style-type: none;
-    text-decoration: none; 
-    margin: 0;
-    padding: 0; 
-    text-align: right    
-}
-
-.nav-bar {
-    position: relative;
-    bottom: 0px;
-}
-
-.nav-bar a {
-    text-decoration: none; 
-    font-size: 13px;
-    color: rgb(41, 41, 41);
-}
-
-.nav-bar a:visited {
-    text-decoration: none; 
-}
-
-.nav-bar a:hover {
-    text-decoration: underline;
-}
-
-#gmail {
-    position: relative;
-    left: -120px;
-    top: 25px;
-}
-
-
-#images {
-    position: relative;
-    left: -110px;
-    top: 25px;
-}
-
-
+/* Footer */
 
 footer {
     position: absolute;
@@ -123,11 +140,9 @@ footer {
 
 .bottom {
     position: relative;
-    margin-top: 0px;
     width: 100%;
     bottom: 75px;
 }
-
 
 .info li {
     position: absolute;
@@ -174,8 +189,6 @@ footer {
 }
 
 
-
-
 #privacy {
     right: 180px;
     bottom: 10px;   
@@ -191,21 +204,3 @@ footer {
     bottom: 10px;
 }
 
-.user-photo {
-    position: relative;
-    width: 32px;
-    height: 32px;
-    left: 1530px;
-    
-}
-
-.user-photo img {
-    border: 1px gray solid;
-    width: 100%;
-    height: 100%;
-    border-radius: 90%;    
-}
-
-.user-photo img:hover {
-    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
-}
