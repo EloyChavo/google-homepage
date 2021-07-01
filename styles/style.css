@@ -129,10 +129,9 @@ ul {
 /* Footer */
 
 footer {
-    position: absolute;
+    position: relative;
     border: 0.5px solid rgba(175, 175, 175, 0.664);
     height: 42px;
-    margin-top: 262px;
     text-align: center; 
     background-color: rgb(242, 242, 242);
     width:99.9%;
@@ -141,14 +140,15 @@ footer {
 .bottom {
     position: relative;
     width: 100%;
-    bottom: 75px;
+    top: 316px;
 }
 
 .info li {
-    position: absolute;
+    position: relative;
     display: inline-block;
     font-size: 14px;
     color:  rgba(99, 99, 99, 0.938);
+    top: 13px;
 }
 
 .info a {
@@ -169,38 +169,38 @@ footer {
 
 
 #ad {
-    left: 30px;
+    right: 530px;
     bottom: 10px;
 }
 
 #business {
-    left: 130px;
+    right: 510px;
     bottom: 10px;
 } 
 
 #about {
     bottom: 10px;
-    left: 215px;
+    right: 490px;
 }
 
 #how {
-    left: 280px;
+    right: 470px;
     bottom: 10px;
 }
 
 
 #privacy {
-    right: 180px;
+    left: 480px;
     bottom: 10px;   
 }
 
 #terms {
-    right: 110px;  
+    left: 500px;  
     bottom: 10px; 
 }
 
 #settings {
-    right: 30px;
+    left: 520px;
     bottom: 10px;
 }
 
